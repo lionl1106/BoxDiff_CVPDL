@@ -2,7 +2,7 @@ import json
 import os
 
 path_in = "/content/inputs"
-path_out = "/content/outputs"
+path_out = "/content/inputs"
 
 with open(f"{path_in}/prompts.json", "r") as file:
     prompts = json.load(file)
