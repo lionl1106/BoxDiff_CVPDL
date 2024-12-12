@@ -23,5 +23,6 @@ for image in images:
     dict['prompt'] += ". 8k resolution, highly detailed, ultra-realistic, anatomically correct, well-defined hands and fingers."
     list.append(dict)
 
+os.mkdir(path_out, exist_ok=True, parents=True)
 with open(f'{path_out}/prompts_with_info.json', 'w') as f:
     json.dump(list, f)
