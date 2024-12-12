@@ -1,7 +1,7 @@
 import json
 import os
 
-path_in = "/content/inputs/info/visualiztion_200.json"
+path_in = "/content/inputs/info.json"
 path_prompts = "/content/inputs/prompts.json"
 path_out = "/content/inputs"
 
